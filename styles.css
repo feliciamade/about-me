@@ -175,3 +175,34 @@ font-size:1rem;
     gap:15px;
     color:rgb(255, 96, 189);
 }
+
+
+
+
+footer {
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    padding:40px;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+input {
+    padding:15px;
+}
+
+label {
+    color:white;
+}
+
+#submit {
+    border:none;
+    background-color:white;
+    padding:17px;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
