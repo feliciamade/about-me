@@ -1,0 +1,177 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+
+height: 100vh;
+font-family: "Poppins", sans-serif;
+align-items: center;
+
+}
+
+/* Typography */
+
+
+p {
+    line-height: 1.6;
+    font-size:1.4rem;
+    font-weight: 300;
+    
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h1,p {
+    margin-bottom: 10px;
+}
+
+#logo {
+    color:rgb(147, 55, 109);
+}
+
+/* Nav*/
+
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:90%;
+    margin:50px 40px 40px 40px;
+    font-size:1.35rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul i{
+    color:rgb(255, 213, 99);
+}
+
+li {
+margin-right: 20px;
+list-style: none;
+color:rgb(147, 55, 109);
+font-weight: 300;
+}
+
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+/* Main*/
+
+
+.content{
+    margin:60px;
+    width:60%;
+}
+
+section {
+   height:700px;
+    display:inline-block;}
+
+/* Home*/
+
+button {
+padding:20px 30px 20px 30px;
+color:rgb(147, 55, 109);
+color:white;
+border: none;
+border-radius: 30px;
+letter-spacing: 1.1px;
+font-size:1rem;
+}
+
+#about {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    color:rgb(147, 55, 109);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* About*/
+
+#hobbies {
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    background-color:rgb(147, 55, 109);
+    color:white;
+}
+
+
+
+#eats {
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    background-color:rgb(71, 24, 51);
+    color:white;
+}
+
+
+/* Scroll Button*/
+
+#scroll {
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width:60px;
+    height:60px;
+    border-radius: 50%; 
+    background-color: white;
+    color:rgb(147, 55, 109);
+    font-size: 20px;
+
+}
+
+
+#scroll_1{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width:60px;
+    height:60px;
+    border-radius: 50%; 
+    color: white;
+    background-color:rgb(197, 96, 155);
+    font-size: 20px;
+
+}
+
+
+.demographics {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    color:rgb(255, 96, 189);
+}
