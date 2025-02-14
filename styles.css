@@ -173,7 +173,7 @@ font-size:1rem;
     align-items: center;
     justify-content: center;
     gap:15px;
-    color:rgb(255, 96, 189);
+    color:rgb(255, 20, 145);
 }
 
 
@@ -205,4 +205,22 @@ label {
 
 footer h3 {
     margin-bottom: 10px;
+}
+
+.images img {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+ object-fit: cover;
+
+}
+
+p a {
+    color:deeppink;
+}
+
+a:hover {
+    color:deeppink;
 }
