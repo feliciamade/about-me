@@ -224,3 +224,8 @@ p a {
 a:hover {
     color:deeppink;
 }
+
+#scroll a:hover,
+#scroll_1 a:hover {
+    color:inherit;
+}
